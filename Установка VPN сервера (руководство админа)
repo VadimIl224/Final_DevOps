@@ -1,3 +1,6 @@
 1. Установить ОС в облаке, настроить подключение SSH
 2. sudo apt-get install easy-rsa netfilter-persistent openvpn
-3. Скопировать пакеты insteasyrsa_0.1-1_all.deb, instiptables_0.1-1_all.deb и запустить  
+3. Настроить SSH к УЦ. 
+(ssh-keygen -t rsa
+скопировать содержимое публичного ключа в файл ~/.ssh/authorized_keys на сервере удостоверяющего центра)
+4. Скопировать пакеты insteasyrsavpn_0.1-1_all.deb, instiptables_0.1-1_all.deb и запустить  
