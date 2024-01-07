@@ -1,5 +1,5 @@
 1. Установить ОС в облаке, настроить подключение SSH
-2. sudo apt-get install easy-rsa netfilter-persistent 
+2. sudo apt-get install easy-rsa iptables-persistent 
 3.Настроить SSH к VPN. 
 (ssh-keygen -t rsa
 скопировать содержимое публичного ключа в файл ~/.ssh/authorized_keys на сервере VPN)
