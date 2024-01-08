@@ -21,7 +21,7 @@ persist-tun
 status openvpn-status.log
 verb 3
 explicit-exit-notify 1' 
-push "redirect-gateway def1"' >> /tmp/server.conf
+push "redirect-gateway autolocal"' >> /tmp/server.conf
 sudo cp /tmp/server.conf /etc/openvpn/server/server.conf
 sudo rm /tmp/server.conf
 sudo sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/' /etc/sysctl.conf
