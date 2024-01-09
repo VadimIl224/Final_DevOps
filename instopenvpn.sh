@@ -20,7 +20,7 @@ persist-key
 persist-tun
 status openvpn-status.log
 verb 3
-explicit-exit-notify 1' 
+explicit-exit-notify 1
 push "redirect-gateway autolocal"' >> /tmp/server.conf
 sudo cp /tmp/server.conf /etc/openvpn/server/server.conf
 sudo rm /tmp/server.conf
