@@ -3,7 +3,7 @@
 3.Настроить SSH к VPN. 
 (ssh-keygen -t rsa
 скопировать содержимое публичного ключа в файл ~/.ssh/authorized_keys на сервере VPN)
-4. Скопировать пакеты insteasyrsa_0.1-1_all.deb, instiptables_0.1-1_all.deb и запустить 
+4. Скопировать пакеты insteasyrsa_0.1-1_all.deb, instiptables_0.1-1_all.deb и запустить . указать порт 9100
 5. Перейти к установке VPN
 6. Скопировать пакет insteasyrsa2_0.1-1_all.deb и запустить
 7. Перейти на сервер VPN
